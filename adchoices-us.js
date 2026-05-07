@@ -59,12 +59,8 @@
     img.src = 'https://ejeong12.github.io/adchoices-assets/AdChoices%20icon.png';
     img.alt = 'AdChoices';
 
-    // Text
-    var text = doc.createTextNode('AdChoices');
-
     // Assemble
     link.appendChild(img);
-    link.appendChild(text);
     wrapper.appendChild(link);
 
     // Ensure positioning works
