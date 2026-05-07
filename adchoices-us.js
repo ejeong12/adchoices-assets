@@ -56,7 +56,7 @@
 
     // Icon
     var img = doc.createElement('img');
-    img.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/AdChoices_Icon.png/120px-AdChoices_Icon.png';
+    img.src = 'https://ejeong12.github.io/adchoices-assets/AdChoices%20icon.png';
     img.alt = 'AdChoices';
 
     // Text
