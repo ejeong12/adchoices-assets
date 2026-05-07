@@ -24,22 +24,19 @@
       'font-family:Arial, sans-serif !important;' +
       '}' +
       '#adchoices-overlay a {' +
-      'display:flex !important;' +
-      'align-items:center !important;' +
-      'gap:4px !important;' +
-      'text-decoration:none !important;' +
-      'font-size:10px !important;' +
-      'line-height:1 !important;' +
-      'color:#fff !important;' +
-      'background:rgba(0,0,0,0.6) !important;' +
-      'padding:2px 4px !important;' +
-      'border-radius:2px !important;' +
-      '}' +
-      '#adchoices-overlay img {' +
-      'width:14px !important;' +
-      'height:14px !important;' +
-      'border:0 !important;' +
-      '}';
+'display:block !important;' +
+'text-decoration:none !important;' +
+'line-height:1 !important;' +
+'background:transparent !important;' +
+'padding:0 !important;' +
+'border-radius:0 !important;' +
+'}' +
+'#adchoices-overlay img {' +
+'width:16px !important;' +
+'height:16px !important;' +
+'border:0 !important;' +
+'display:block !important;' +
+'}';
 
     (doc.head || root).appendChild(style);
 
